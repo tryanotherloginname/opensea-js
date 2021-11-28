@@ -474,6 +474,7 @@ export interface OrderQuery extends Partial<OrderJSON> {
 export interface OpenSeaAssetQuery {
     owner?: string;
     asset_contract_address?: string;
+    collection?: string;
     token_ids?: Array<number | string>;
     search?: string;
     order_by?: string;
